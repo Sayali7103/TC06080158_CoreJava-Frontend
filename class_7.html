@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        /* creating a box */
+        #mybox
+        {
+            /* this will create a box of width 160px and height of 160 px */
+            width: 160px;
+            height:160px;
+            background-color: cadetblue;
+            /* to include the defined animations */
+            animation-name: anime;
+            /* time duration for single iteration of animation */
+            animation-duration: 10s;
+            /* no of iteration of animation */
+            animation-iteration-count: 2;
+            
+        }
+        /* to anable the animation to a content or bax model */
+        @keyframes
+        /* definig animation */
+        anime
+        {
+            /* these color will change according to specified percentage of time */
+            0% {background-color: aqua;}
+            20%{background-color: blue;}
+            40%{background-color: chartreuse;}
+            60%{background-color: darkorange;}
+            80%{background-color: hotpink;}
+        }
+    </style>
+    <title>day_7</title>
+</head>
+<body>
+    <div align="center">
+        <div id="mybox"></div>
+    </div>
+</body>
+</html>

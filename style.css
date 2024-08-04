@@ -1,0 +1,33 @@
+#b {
+  background-color: #8f2d56;
+}
+
+.c {
+  color: #e63946;
+  text-align: center;
+}
+
+.a {
+  color: #e63946;
+  background-color: bisque;
+  text-align: center;
+}
+
+.d {
+  height: 200px;
+  width: 200px;
+  border-radius: 150px;
+  background-color: aqua;
+  top: 250px;
+  position: absolute;
+}
+
+.e {
+  height: 400px;
+  width: 400px;
+  border-radius: 266px;
+  background-color: aqua;
+  position: absolute;
+  top: 250px;
+  left: 250px;
+}/*# sourceMappingURL=style.css.map */
